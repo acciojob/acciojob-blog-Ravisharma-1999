@@ -7,17 +7,13 @@ body {
 
 header {
     text-align: center;
-    background-color: #343a40;
     color: white;
     padding: 20px 0;
 }
 
-marquee h1 {
-    margin: 0;
-}
 
 .blog-link {
-    text-align: center;
+    text-align: start;
     margin: 20px 0;
 }
 
@@ -27,35 +23,3 @@ marquee h1 {
     text-decoration: none;
 }
 
-.articles {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.article {
-    margin-bottom: 40px;
-}
-
-.article img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.article h2 {
-    margin: 10px 0;
-}
-
-.article h2 a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.article h2 a:hover {
-    text-decoration: underline;
-}
-
-.article p {
-    margin: 10px 0;
-    color: #333;
-}
